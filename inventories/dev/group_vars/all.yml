@@ -1,0 +1,6 @@
+mysql_database: prestashop
+mysql_user: prestashop_user
+
+prestashop_db_name: "{{ mysql_database }}"
+prestashop_db_user: "{{ mysql_user }}"
+prestashop_db_host: "{{ hostvars[groups['db'][0]]['ansible_host'] }}"

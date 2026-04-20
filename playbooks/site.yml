@@ -1,0 +1,11 @@
+- name: Deploy MySQL server
+  hosts: db
+  become: true
+  roles:
+    - mysql
+
+- name: Deploy Prestashop web server
+  hosts: web
+  become: true
+  roles:
+    - prestashop
