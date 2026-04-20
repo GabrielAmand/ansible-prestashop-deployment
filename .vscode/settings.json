@@ -1,0 +1,5 @@
+{
+  "ansible.validation.enabled": true,
+  "ansible.ansibleLint.enabled": true,
+  "ansible.ansibleLint.path": "/home/gab/.local/bin/ansible-lint"
+}
