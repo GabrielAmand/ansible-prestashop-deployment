@@ -1,8 +1,1 @@
-mysql_database: prestashop
-mysql_user: prestashop_user
-mysql_user_host: "%"
-mysql_root_host: "%"
-
-prestashop_db_name: "{{ mysql_database }}"
-prestashop_db_user: "{{ mysql_user }}"
-prestashop_db_host: "{{ hostvars[groups['db'][0]]['ansible_host'] }}"
+# Global variables

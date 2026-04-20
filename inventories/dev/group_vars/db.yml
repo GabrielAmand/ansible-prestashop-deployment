@@ -1,4 +1,9 @@
 mysql_bind_address: "0.0.0.0"
 
-mysql_root_password: "change_me_root_password"
-mysql_user_password: "change_me_user_password"
+mysql_database: prestashop
+mysql_user: prestashop_user
+mysql_user_host: "%"
+mysql_root_host: "%"
+
+mysql_root_password: "{{ vault_mysql_root_password }}"
+mysql_user_password: "{{ vault_mysql_user_password }}"

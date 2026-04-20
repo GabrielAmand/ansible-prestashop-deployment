@@ -1,4 +1,6 @@
-# Web server variables
 web_root: /var/www/html
 prestashop_version: "8.1.2"
-prestashop_download_url: "https://download.prestashop.com/download/releases/prestashop_{{ prestashop_version }}.zip"
+
+prestashop_db_name: "prestashop"
+prestashop_db_user: "prestashop_user"
+prestashop_db_host: "{{ hostvars[groups['db'][0]]['ansible_host'] }}"
