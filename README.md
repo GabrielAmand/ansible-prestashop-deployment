@@ -50,6 +50,13 @@ The infrastructure includes:
 
 
 ---
+## Workflow
+
+1. Setup environment (download Prestashop + configure Vault)
+2. Deploy infrastructure
+3. Run validation tests
+
+---
 
 ## Prerequisites
 
@@ -76,6 +83,7 @@ In a production environment:
 ---
 ## Setup
 
+⚠️ You must complete all setup steps before running the playbooks.
 Before running the project, a few manual steps are required.
 
 ### 1. Download Prestashop
@@ -113,6 +121,8 @@ You will be asked to define a Vault password.
 
 ---
 ## How to Run
+
+⚠️ You will be prompted for your sudo password during execution.
 
 ### Deploy the infrastructure
 
